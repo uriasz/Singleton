@@ -1,7 +1,7 @@
 
 ![e5bd3a2f2cf2f6f4dad0f531b92564be-ezgif com-resize](https://github.com/user-attachments/assets/0804e1b3-108b-4f82-90b3-530fdad10da1)
 
-# .・。.・゜Conexão com Banco de Dados com Padrão Singleton ・゜・。.
+# .・。・゜Conexão com Banco de Dados com Padrão Singleton ・゜・。.
 
 Este projeto implementa o **padrão Singleton** para gerenciar uma **conexão fictícia com um banco de dados**.
 Ele simula o comportamento de uma conexão com o banco de dados, retornando uma mensagem `"Banco de dados conectado"` ao invés de estabelecer uma conexão real. 
