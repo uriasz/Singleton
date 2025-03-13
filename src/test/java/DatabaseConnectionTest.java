@@ -1,26 +1,23 @@
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import java.sql.Connection;
+import static org.junit.jupiter.api.Assertions.*;
 
 class DatabaseConnectionTest {
 
-    private DatabaseConnection db1;
-    private DatabaseConnection db2;
-
-    @BeforeEach
-    void setUp() {
-        db1 = DatabaseConnection.getInstance();
-        db2 = DatabaseConnection.getInstance();
-    }
-
     @Test
     void testSingletonInstance() {
-        assertSame(db1, db2, "A instância deve ser única.");
+        DatabaseConnection instance1 = DatabaseConnection.getInstance();
+        DatabaseConnection instance2 = DatabaseConnection.getInstance();
+
+
+        assertSame(instance1, instance2, "As instâncias do Singleton devem ser iguais.");
     }
 
     @Test
-    void testConnectionNotNull() {
-        assertNotNull(db1.getConnection(), "A conexão não pode ser nula.");
+    void testConnectionStatus() {
+        DatabaseConnection connection = DatabaseConnection.getInstance();
+
+
+        assertEquals("Banco de dados conectado", connection.getConnection(), "A conexão deve retornar a mensagem esperada.");
     }
 }
+
