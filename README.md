@@ -149,3 +149,8 @@ Este projeto demonstra a aplicação do padrão Singleton em um sistema simples 
 Sinta-se à vontade para modificar e expandir este projeto conforme necessário!
 
 ꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷
+
+
+# Diagram de Classes
+
+![Imagem do WhatsApp de 2025-03-18 à(s) 10 31 14_88a90a98](https://github.com/user-attachments/assets/337bf0f7-a21d-4230-93d5-323e7d41dd46)
